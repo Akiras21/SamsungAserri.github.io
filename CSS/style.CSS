@@ -1,0 +1,297 @@
+*{
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+#list1{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: inline-block;
+    color:rgb(0, 0, 0);
+    font-size: small;
+}
+
+.list11{
+    display:inline-block;
+    margin-left: 1ch;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+#buscadores{
+    margin-left: 1ch;  
+    display: inline-flex;
+}
+#person{
+    width: 30px;
+    height: 30px;
+
+}
+#search{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+/*slider*/
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.antes, .despues {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.antes{
+    left: 10px;
+}
+
+.despues{
+    right: 10px;
+}
+
+section{
+    margin: 0%;
+}
+#ofertas{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.imagenesofert{
+    height: 30ch;
+    width: 30ch;
+  }
+#colum1{
+    display: flex;
+    align-items: flex-start;
+    direction: wrap;
+    width: 50%;
+    margin-left: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+#colum2{
+    display: flex;
+    direction: wrap; 
+    align-items: center;
+    width: 50%;
+    margin-left: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+#zflip,#led{
+    margin-left: 20ch;
+}
+#colum3{
+    display: flex;
+    direction: wrap;
+    align-items: center;
+    margin-left: 60%;
+    margin-top: -48%;
+    height: 50ch;
+    text-align: center;
+    width: 50ch;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+    
+
+}
+#promoimg{
+    height: 70ch;
+    
+}
+#ofertasynovedades{
+    margin-top: 10ch;
+}
+#bes,#pix, #hor{
+    flex: 0 0 100%;
+}
+#artinicio{
+    background: rgba(0, 0, 0, 0.5);
+}
+footer{
+    margin-top: 16%;
+    background-color: rgb(0, 0, 0);
+    border: 1px, solid;
+    border-color: #000000;
+    color: #fff;
+}
+#mobilsec, #blacsec{
+    margin-top: 10ch;
+    text-align: center;
+}
+#tvsec{
+    margin-top: 3ch;
+    text-align: center;
+}
+#video{
+    margin-top: 20%;
+    border: 0%;
+    width:100%;
+    height:50ch;
+
+ 
+}
+#edna{
+    width: 4%;
+    height: 4%;
+}
+#mobilsec{
+    background-color: rgba(182, 194, 197, 0.479);
+    height: 100%;
+    width: 100%;
+}
+#mobileimg{
+    margin-left: 10px;
+    height: 70%;
+    width: 20%;
+    display: flex;
+}
+#mobilelist{
+    display: flex;
+    margin-top: -210px;
+    margin-left: 23%;
+    margin-bottom: 40ch;    
+}
+#ulmobile{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.limobile{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    color: #000000;
+}
+#pantallasimg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    float: center;
+}
+.compraraho{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    height: 7%;
+    width: 10%;
+    margin-top: 200%;
+    margin-right: 40%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#lblancaimg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    float: center;
+}
+#divblanca{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    margin-top: 190%;
+    margin-left: 65%;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+}
+#ulblanca{
+    white-space: 110px;
+    list-style: none;
+    margin-top: 30ch;
+}
+.liblanca{
+margin-bottom: 30px;
+}
+#divsopo{
+    text-align: center;
+    margin-left: 20%;
+    background-color: rgba(14, 49, 95, 0.274);
+    height: 70ch;
+    width: 90ch;
+    border-radius: 20px;
+}
+#formsopo{
+    display: flex;
+    display: block;
+    align-items: center;
+}
+#inputsform{
+    display: flex;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50ch;
+    height: 5ch;
+    border-radius: 20px;
+}
+#inputsdiv{
+    justify-content: center;
+}
+#btnenviar{
+    margin-top: 20%;
+    width: 30ch;
+    height: 6ch;
+    border-radius: 20px;
+    color: white;
+    background-color: #000000;
+}
+#btnenviar:hover{
+    background-color: rgb(36, 36, 36);
+}
+#input{
+    border-radius: 20px;
+    background-color: aqua;
+}
+#search{
+    display: flex;
+    margin-right: 10px;
+
+}
+.custom-input{
+    border-radius: 20px;
+    display: flex;
+    display: inline-flexbox;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    margin-left: 115ch;
+}
+#insta, #face{
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+}
